@@ -131,11 +131,11 @@ namespace 演習0608
                 if (
     (cpos.Y >= labels[n].Top && cpos.Y <= labels[n].Bottom) &&
     (cpos.X <= labels[n].Right && cpos.X >= labels[n].Left)
-     && (labels[n].Enabled = true)
+
     )
                 {                 
 
-                        labels[n].Enabled=false;
+                        labels[n].Visible=false;
                    
                         zz++;
                         textBox1.Text = zz.ToString();
